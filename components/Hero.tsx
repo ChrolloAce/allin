@@ -68,7 +68,7 @@ export default function Hero() {
 
             <h1 className="mt-4 font-heading uppercase leading-[0.95] tracking-tight text-5xl sm:text-6xl">
               All In <span className="underline decoration-brand-gold decoration-4 underline-offset-4">Plumbing</span> Solutions
-              <br /> <span className="text-brand-blue">Miami&apos;s</span> Trusted Experts
+              <br /> <span className="text-brand-blue">Florida&apos;s</span> Trusted Experts
             </h1>
 
             <p className="mt-5 max-w-xl text-lg text-white/90">

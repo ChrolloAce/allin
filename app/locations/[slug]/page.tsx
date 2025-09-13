@@ -1,8 +1,7 @@
 import { Metadata } from 'next'
 import { notFound } from 'next/navigation'
-import Image from 'next/image'
 import Link from 'next/link'
-import { MapPin, Phone, Clock, CheckCircle, Star, ChevronRight, Droplets } from 'lucide-react'
+import { MapPin, Phone, Clock, CheckCircle, Star, ChevronRight } from 'lucide-react'
 import { getLocationBySlug, getNearbyLocations, getAllLocationSlugs, PLUMBING_SERVICES } from '@/content/locations'
 import Button from '@/components/ui/Button'
 import { FAQList } from '@/components/sections/FAQList'
@@ -140,7 +139,7 @@ export default function LocationPage({ params }: LocationPageProps) {
           <div className="absolute inset-0 bg-gradient-to-br from-brand-blue/10 to-transparent"></div>
           
           <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div className="grid gap-12 items-center">
               {/* Left Content */}
               <div>
                 {/* Breadcrumbs */}
@@ -203,23 +202,6 @@ export default function LocationPage({ params }: LocationPageProps) {
                   ✓ Verified service area in Google Business Profile
                 </p>
               </div>
-
-              {/* Right - Hero Image */}
-              <div className="relative h-[400px] lg:h-[500px] overflow-hidden rounded-none border-2 border-brand-gold">
-                {location.heroImage ? (
-                  <Image
-                    src={location.heroImage}
-                    alt={`Professional plumber serving ${location.city}, FL`}
-                    fill
-                    className="object-cover"
-                    priority
-                  />
-                ) : (
-                  <div className="flex h-full items-center justify-center bg-brand-gray">
-                    <Droplets className="h-20 w-20 text-brand-black/20" />
-                  </div>
-                )}
-              </div>
             </div>
           </div>
         </section>
@@ -274,53 +256,6 @@ export default function LocationPage({ params }: LocationPageProps) {
                   </Link>
                 )
               })}
-            </div>
-          </div>
-        </section>
-
-        {/* Process Section */}
-        <section className="py-12 md:py-16 bg-white">
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <h2 className="font-heading text-3xl md:text-4xl uppercase text-brand-black mb-8">
-              Our Process: Diagnose • Fix • Protect
-            </h2>
-            
-            <div className="grid md:grid-cols-3 gap-8">
-              <div className="text-center">
-                <div className="mx-auto h-16 w-16 rounded-full bg-brand-blue flex items-center justify-center text-white font-heading text-2xl">
-                  1
-                </div>
-                <h3 className="mt-4 font-heading text-xl uppercase text-brand-black">
-                  Quick Diagnosis
-                </h3>
-                <p className="mt-2 text-brand-black/70">
-                  We arrive promptly and use advanced tools to identify the exact problem, providing upfront pricing before any work begins.
-                </p>
-              </div>
-              
-              <div className="text-center">
-                <div className="mx-auto h-16 w-16 rounded-full bg-brand-blue flex items-center justify-center text-white font-heading text-2xl">
-                  2
-                </div>
-                <h3 className="mt-4 font-heading text-xl uppercase text-brand-black">
-                  Expert Repair
-                </h3>
-                <p className="mt-2 text-brand-black/70">
-                  Our licensed plumbers fix the issue correctly the first time, using quality parts backed by warranties.
-                </p>
-              </div>
-              
-              <div className="text-center">
-                <div className="mx-auto h-16 w-16 rounded-full bg-brand-blue flex items-center justify-center text-white font-heading text-2xl">
-                  3
-                </div>
-                <h3 className="mt-4 font-heading text-xl uppercase text-brand-black">
-                  Prevent Future Issues
-                </h3>
-                <p className="mt-2 text-brand-black/70">
-                  We recommend preventive measures and maintenance plans to protect your home from future plumbing problems.
-                </p>
-              </div>
             </div>
           </div>
         </section>

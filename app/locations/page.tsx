@@ -2,7 +2,6 @@
 
 import React, { useState, useMemo } from 'react'
 import Link from 'next/link'
-import Image from 'next/image'
 import { Search, MapPin, Phone } from 'lucide-react'
 import { LOCATIONS } from '@/content/locations'
 import Button from '@/components/ui/Button'
@@ -119,24 +118,6 @@ export default function LocationsPage() {
                 href={`/locations/${location.slug}`}
                 className="group relative overflow-hidden rounded-none border-2 border-brand-black bg-white shadow-card transition-all hover:-translate-y-1 hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-brand-gold"
               >
-                {/* Image */}
-                <div className="relative h-48 overflow-hidden bg-brand-gray">
-                  {location.heroImage ? (
-                    <Image
-                      src={location.heroImage}
-                      alt={`Plumber in ${location.city}, FL`}
-                      fill
-                      className="object-cover transition-transform duration-300 group-hover:scale-105"
-                    />
-                  ) : (
-                    <div className="flex h-full items-center justify-center">
-                      <MapPin className="h-12 w-12 text-brand-black/20" />
-                    </div>
-                  )}
-                  
-                  {/* Gold accent bar */}
-                  <div className="absolute bottom-0 left-0 h-1 w-full bg-brand-gold"></div>
-                </div>
                 
                 {/* Content */}
                 <div className="p-5">
