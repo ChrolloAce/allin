@@ -29,6 +29,7 @@ export const services: Service[] = [
     slug: 'drain-cleaning',
     name: 'Drain Cleaning',
     icon: 'droplets',
+    image: '/images/drain-cleaning-new.png',
     heroImage: '/images/drain-cleaning-new.png',
     gallery: ['/images/drain-cleaning-new.png', '/images/leak-detection.png'],
     summary: 'Professional drain cleaning service to eliminate clogs and prevent backups.',
