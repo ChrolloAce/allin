@@ -5,7 +5,7 @@ import Link from 'next/link'
 import { MapPin, Phone, Clock, CheckCircle, Star, ChevronRight, Droplets } from 'lucide-react'
 import { getLocationBySlug, getNearbyLocations, getAllLocationSlugs, PLUMBING_SERVICES } from '@/content/locations'
 import Button from '@/components/ui/Button'
-import { FAQAccordion } from '@/components/sections/FAQAccordion'
+import { FAQList } from '@/components/sections/FAQList'
 
 interface LocationPageProps {
   params: {
@@ -364,7 +364,7 @@ export default function LocationPage({ params }: LocationPageProps) {
               <h2 className="font-heading text-3xl md:text-4xl uppercase text-brand-black mb-8">
                 FAQs for {location.city} Homeowners
               </h2>
-              <FAQAccordion items={location.faqs.map(faq => ({
+              <FAQList items={location.faqs.map(faq => ({
                 question: faq.q,
                 answer: faq.a
               }))} />
