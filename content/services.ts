@@ -26,6 +26,21 @@ export interface Service {
 
 export const services: Service[] = [
   {
+    slug: 'drain-cleaning',
+    name: 'Drain Cleaning',
+    icon: 'droplets',
+    heroImage: '/images/drain-cleaning-new.png',
+    gallery: ['/images/drain-cleaning-new.png', '/images/leak-detection.png'],
+    summary: 'Professional drain cleaning service to eliminate clogs and prevent backups.',
+    bullets: [
+      'Advanced hydro-jetting technology',
+      'Video camera inspection',
+      'Preventative maintenance',
+      'Same-day service available'
+    ],
+    ctaLabel: 'Schedule Drain Service'
+  },
+  {
     slug: '24-7-emergency',
     name: '24/7 Emergency Service',
     icon: 'clock',

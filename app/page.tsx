@@ -53,7 +53,7 @@ export default function HomePage() {
         images={['/images/water-heater.png', '/images/bathroom.png']}
         direction="right"
         ctaText="Get Hot Water Today"
-        ctaHref="/water-heater"
+        ctaHref="/water-heaters"
       />
       
       {/* Why Choose Us */}
