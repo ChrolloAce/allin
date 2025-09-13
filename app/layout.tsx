@@ -6,17 +6,20 @@ import { Footer } from '@/components/layout/Footer'
 import { ProofToasts } from '@/components/ui/ProofToasts'
 
 export const metadata: Metadata = {
-  title: 'All In Plumbing Solutions | 24/7 Emergency Plumbing Services Miami',
-  description: '24/7 emergency plumbing services in Miami. Licensed master plumbers for drain cleaning, water heater repair, leak detection, and more. Call (561) 571-2995',
-  keywords: 'plumber, Miami, emergency plumbing, drain cleaning, water heater, leak detection, 24/7 plumbing, Florida',
+  title: {
+    default: 'All In Plumbing | 24/7 Emergency Plumber West Palm Beach, Boca Raton FL',
+    template: 'All In Plumbing | %s'
+  },
+  description: 'Professional plumber serving West Palm Beach, Boca Raton, Delray Beach, Palm Beach Gardens & all Palm Beach County FL. 24/7 emergency plumbing, drain cleaning, water heaters, leak detection. Licensed & insured. Call (561) 571-2995',
+  keywords: 'plumber West Palm Beach, plumber Boca Raton, emergency plumbing Palm Beach County, drain cleaning, water heater repair, leak detection, 24/7 plumber Florida, plumber near me, licensed plumber FL',
   icons: {
     icon: '/favicon.png',
     shortcut: '/favicon.png',
     apple: '/favicon.png',
   },
   openGraph: {
-    title: 'All In Plumbing Solutions | Miami',
-    description: '24/7 emergency plumbing services in Miami. Licensed master plumbers ready to help!',
+    title: 'All In Plumbing | 24/7 Plumber West Palm Beach & Boca Raton FL',
+    description: '24/7 emergency plumber serving all of Palm Beach County. Licensed master plumbers for residential & commercial. Same-day service available!',
     type: 'website',
     locale: 'en_US',
     url: 'https://allinplumbingsolutions.com',
@@ -24,8 +27,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'All In Plumbing Solutions | Miami',
-    description: '24/7 emergency plumbing services in Miami. Licensed master plumbers ready to help!',
+    title: 'All In Plumbing | 24/7 Plumber West Palm Beach FL',
+    description: '24/7 emergency plumber serving Palm Beach County. Licensed & insured. Call (561) 571-2995',
   },
   robots: {
     index: true,

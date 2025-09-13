@@ -29,15 +29,16 @@ export async function generateMetadata({ params }: LocationPageProps): Promise<M
     }
   }
 
-  const title = `Plumber in ${location.city}, FL | 24/7 Emergency, Drains, Water Heaters | All In Plumbing Solutions`
-  const description = `All In Plumbing Solutions provides emergency plumbing, drain cleaning, water heater repair/installation, leak detection & more in ${location.city}, FL. Licensed & insured. Call (561) 571-2995.`
+  const title = `Plumber ${location.city} FL - 24/7 Emergency Service`
+  const description = `Need a plumber in ${location.city}, FL? All In Plumbing offers 24/7 emergency plumbing, drain cleaning, water heaters, leak detection & repairs. Licensed & insured local plumbers. Same-day service! Call (561) 571-2995`
 
   return {
-    title,
-    description,
+    title: title,
+    description: description,
+    keywords: `plumber ${location.city} FL, emergency plumber ${location.city}, drain cleaning ${location.city}, water heater repair ${location.city}, leak detection ${location.city}, plumber near me, ${location.zips?.join(', ')}`,
     openGraph: {
-      title,
-      description,
+      title: `All In Plumbing | Plumber in ${location.city}, FL`,
+      description: description,
       url: `https://allinplumbingsolutions.com/locations/${params.slug}`,
       siteName: 'All In Plumbing Solutions',
       locale: 'en_US',
@@ -45,8 +46,8 @@ export async function generateMetadata({ params }: LocationPageProps): Promise<M
     },
     twitter: {
       card: 'summary_large_image',
-      title,
-      description,
+      title: `All In Plumbing | ${location.city} FL Plumber`,
+      description: description,
     },
     alternates: {
       canonical: `https://allinplumbingsolutions.com/locations/${params.slug}`,

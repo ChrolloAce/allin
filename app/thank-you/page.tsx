@@ -2,8 +2,8 @@ import { Metadata } from 'next'
 import ThankYouClient from './ThankYouClient'
 
 export const metadata: Metadata = {
-  title: 'Thank You! Request Received | All In Plumbing Solutions',
-  description: 'Your plumbing service request has been received. We will contact you shortly.',
+  title: 'Thank You - Request Received',
+  description: 'Thank you for contacting All In Plumbing. Your request has been received and we will call you shortly. For emergencies, call (561) 571-2995',
   robots: { 
     index: false,
     follow: false 

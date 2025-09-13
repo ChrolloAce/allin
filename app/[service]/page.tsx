@@ -25,19 +25,32 @@ export async function generateMetadata({ params }: ServicePageProps): Promise<Me
   
   if (!service) {
     return {
-      title: 'Service Not Found | All In Plumbing Solutions',
+      title: 'Service Not Found',
     }
   }
   
+  const locations = 'West Palm Beach, Boca Raton, Delray Beach'
+  const title = `${service.name} ${locations} FL`
+  const description = `Professional ${service.name.toLowerCase()} in ${locations} & all Palm Beach County FL. Licensed plumbers, same-day service, 24/7 emergency. ${service.summary} Call (561) 571-2995!`
+  
   return {
-    title: `${service.name} Services in Miami | Professional ${service.name} | All In Plumbing`,
-    description: `Expert ${service.name.toLowerCase()} services in Miami. ${service.summary} Call (561) 571-2995 for free estimate.`,
-    keywords: `${service.name.toLowerCase()}, ${service.name.toLowerCase()} Miami, ${service.name.toLowerCase()} services, plumbing Miami, ${service.name.toLowerCase()} near me`,
+    title: title,
+    description: description,
+    keywords: `${service.name.toLowerCase()} West Palm Beach, ${service.name.toLowerCase()} Boca Raton, ${service.name.toLowerCase()} Palm Beach County, ${service.name.toLowerCase()} near me, emergency plumber FL, licensed plumber`,
     openGraph: {
-      title: `${service.name} | All In Plumbing Solutions`,
-      description: service.summary,
+      title: `All In Plumbing | ${service.name} Palm Beach County FL`,
+      description: description,
       type: 'website',
-      images: [service.heroImage],
+      images: service.heroImage ? [service.heroImage] : [],
+      url: `https://allinplumbingsolutions.com/${params.service}`,
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `All In Plumbing | ${service.name}`,
+      description: description,
+    },
+    alternates: {
+      canonical: `https://allinplumbingsolutions.com/${params.service}`,
     },
   }
 }
