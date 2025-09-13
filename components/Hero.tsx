@@ -62,11 +62,7 @@ export default function Hero() {
         <div className="grid lg:grid-cols-2 gap-10 items-center">
           {/* Left: Copy / CTAs */}
           <div className="text-white">
-            <span className="inline-flex items-center gap-2 rounded-full bg-red-600/20 ring-1 ring-red-600/30 text-red-400 px-3 py-1 text-sm font-semibold">
-              ★ 24/7 Emergency Services
-            </span>
-
-            <h1 className="mt-4 font-heading uppercase leading-[0.95] tracking-tight text-5xl sm:text-6xl">
+            <h1 className="font-heading uppercase leading-[0.95] tracking-tight text-5xl sm:text-6xl">
               All In <span className="underline decoration-brand-gold decoration-4 underline-offset-4">Plumbing</span> Solutions
               <br /> <span className="text-brand-blue">Florida&apos;s</span> Trusted Experts
             </h1>
