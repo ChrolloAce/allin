@@ -13,10 +13,10 @@ export function Navbar() {
   const navItems = [
     { label: 'Home', href: '/' },
     { label: 'Services', href: '/services' },
+    { label: 'Locations', href: '/locations' },
     { label: 'Emergency', href: '/24-7-emergency' },
     { label: 'Water Heaters', href: '/water-heaters' },
     { label: 'Maintenance', href: '/maintenance-programs' },
-    { label: 'FAQs', href: '/faqs' },
     { label: 'Contact', href: '/contact' }
   ]
   
