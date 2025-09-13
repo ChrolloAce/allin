@@ -47,8 +47,8 @@ export default function Hero() {
       {/* Background image */}
       <div className="absolute inset-0 -z-10">
         <Image
-          src="/images/hero-plumber.jpeg"
-          alt="Professional plumber at work"
+          src="/images/hero-van.png"
+          alt="All In Plumbing Solutions service van"
           fill
           priority
           className="object-cover object-center"
