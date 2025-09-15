@@ -1,8 +1,8 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Service Areas - Plumber Locations in Palm Beach County FL',
-  description: 'All In Plumbing serves all of Palm Beach County FL including West Palm Beach, Boca Raton, Delray Beach, Palm Beach Gardens, Jupiter, Wellington & more. Find your local plumber. 24/7 emergency service. Call (561) 571-2995',
+  title: 'Service Areas Palm Beach County | All In Plumbing',
+  description: 'Serving all Palm Beach County FL. West Palm Beach, Boca Raton, Delray Beach & more. 24/7 emergency plumber. Licensed CFC 1430367. Call (561) 571-2995',
   keywords: 'plumber service areas, Palm Beach County plumber, West Palm Beach plumber, Boca Raton plumber, Delray Beach plumber, Jupiter plumber, plumber near me FL',
   openGraph: {
     title: 'All In Plumbing | Service Areas Throughout Palm Beach County',

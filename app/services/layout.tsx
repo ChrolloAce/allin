@@ -1,8 +1,8 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Plumbing Services West Palm Beach, Boca Raton & Palm Beach County FL',
-  description: 'Complete plumbing services in West Palm Beach, Boca Raton, Delray Beach & all Palm Beach County FL. Drain cleaning, water heaters, leak detection, emergency repairs, backflow testing & more. Licensed plumbers, 24/7 service. Call (561) 571-2995',
+  title: 'Plumbing Services Palm Beach County FL | All In',
+  description: 'Complete plumbing services Palm Beach County. Drain cleaning, water heaters, leak detection, 24/7 emergency. Licensed CFC 1430367. Call (561) 571-2995',
   keywords: 'plumbing services West Palm Beach, plumber Boca Raton, drain cleaning Palm Beach County, water heater repair, leak detection FL, emergency plumber, commercial plumbing, residential plumber',
   openGraph: {
     title: 'All In Plumbing | Full Service Plumber Palm Beach County FL',

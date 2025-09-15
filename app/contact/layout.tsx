@@ -1,8 +1,8 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Contact Us - Get Free Plumbing Estimate West Palm Beach FL',
-  description: 'Contact All In Plumbing for free estimates in West Palm Beach, Boca Raton & Palm Beach County FL. 24/7 emergency plumber available. Call (561) 571-2995 or request service online. Licensed & insured local plumbers.',
+  title: 'Contact Us | Free Estimate | All In Plumbing FL',
+  description: 'Free plumbing estimates Palm Beach County FL. 24/7 emergency service. Licensed CFC 1430367 & insured. Call (561) 571-2995 or request online.',
   keywords: 'contact plumber West Palm Beach, plumber phone number, emergency plumber contact, free plumbing estimate, plumber near me Palm Beach County',
   openGraph: {
     title: 'All In Plumbing | Contact Us for Free Estimate',

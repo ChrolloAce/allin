@@ -7,10 +7,10 @@ import { ProofToasts } from '@/components/ui/ProofToasts'
 
 export const metadata: Metadata = {
   title: {
-    default: 'All In Plumbing | 24/7 Emergency Plumber West Palm Beach, Boca Raton FL',
+    default: 'All In Plumbing | 24/7 Plumber Palm Beach County FL',
     template: 'All In Plumbing | %s'
   },
-  description: 'Professional plumber serving West Palm Beach, Boca Raton, Delray Beach, Palm Beach Gardens & all Palm Beach County FL. 24/7 emergency plumbing, drain cleaning, water heaters, leak detection. Licensed & insured. Call (561) 571-2995',
+  description: '24/7 emergency plumber serving Palm Beach County FL. Drain cleaning, water heaters, leak detection. Licensed CFC 1430367. Call (561) 571-2995',
   keywords: 'plumber West Palm Beach, plumber Boca Raton, emergency plumbing Palm Beach County, drain cleaning, water heater repair, leak detection, 24/7 plumber Florida, plumber near me, licensed plumber FL',
   icons: {
     icon: '/favicon.png',
