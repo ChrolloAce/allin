@@ -64,11 +64,11 @@ export default function Hero() {
           <div className="text-white">
             <h1 className="font-heading uppercase leading-[0.95] tracking-tight text-5xl sm:text-6xl">
               All In <span className="underline decoration-brand-gold decoration-4 underline-offset-4">Plumbing</span> Solutions
-              <br /> <span className="text-brand-blue">Florida&apos;s</span> Trusted Experts
+              <br /> <span className="text-brand-blue">North Palm Beach&apos;s</span> Trusted Experts
             </h1>
 
             <p className="mt-5 max-w-xl text-lg text-white/90">
-              Licensed • Insured • 24/7 Emergency Service. From leaks to installations, we handle all your plumbing needs with expertise and care.
+              Licensed CFC 1430367 • Insured • 24/7 Emergency Service. From leaks to installations, we handle all your plumbing needs with expertise and care.
             </p>
 
             {/* Trust row */}

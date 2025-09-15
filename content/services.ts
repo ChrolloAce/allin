@@ -57,21 +57,6 @@ export const services: Service[] = [
     ctaLabel: 'Call Emergency Hotline'
   },
   {
-    slug: 'iron-removal',
-    name: 'Iron Removal',
-    icon: 'droplet',
-    image: '/images/iron-removal.png',
-    heroImage: '/images/iron-removal.png',
-    summary: 'Professional iron removal systems to improve your water quality and protect your plumbing.',
-    bullets: [
-      'Advanced filtration systems',
-      'Removes iron, rust, and sediment',
-      'Protects appliances and fixtures',
-      'Improves water taste and clarity'
-    ],
-    ctaLabel: 'Get Clean Water'
-  },
-  {
     slug: 'water-heaters',
     name: 'Water Heaters',
     icon: 'flame',
@@ -145,21 +130,6 @@ export const services: Service[] = [
       'Property management support'
     ],
     ctaLabel: 'Get a Quote'
-  },
-  {
-    slug: 'lead-detection',
-    name: 'Lead Detection',
-    icon: 'shield',
-    image: '/images/lead-detection.png',
-    heroImage: '/images/lead-detection.png',
-    summary: 'Professional lead testing and remediation to ensure your water is safe for your family.',
-    bullets: [
-      'EPA-certified testing methods',
-      'Lead pipe identification',
-      'Water quality analysis',
-      'Complete lead remediation'
-    ],
-    ctaLabel: 'Test Your Water'
   },
   {
     slug: 'backflow-prevention',

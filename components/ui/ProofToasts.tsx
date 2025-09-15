@@ -11,16 +11,16 @@ type Toast = {
 }
 
 const NAMES = [
-  'Andy from Coral Gables',
-  'Jenna from Brickell', 
-  'Tommy from South Beach',
-  'Maya from Coconut Grove',
-  'Carlos from Kendall',
-  'Sarah from Aventura',
-  'Mike from Downtown Miami',
-  'Lisa from Miami Beach',
-  'David from Doral',
-  'Rachel from Wynwood'
+  'Andy from Palm Beach',
+  'Jenna from West Palm Beach', 
+  'Tommy from Palm Beach Gardens',
+  'Maya from Jupiter',
+  'Carlos from Wellington',
+  'Sarah from Boca Raton',
+  'Mike from Delray Beach',
+  'Lisa from Lake Worth',
+  'David from Boynton Beach',
+  'Rachel from Royal Palm Beach'
 ]
 
 export function ProofToasts() {
