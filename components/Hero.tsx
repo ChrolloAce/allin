@@ -137,52 +137,52 @@ export default function Hero() {
           <div id="quote" className="lg:justify-self-end w-full">
             <form
               onSubmit={onSubmit}
-              className="rounded-none bg-white/95 backdrop-blur px-5 sm:px-6 py-6 shadow-card ring-1 ring-brand-black/10 max-w-md ml-auto"
+              className="rounded-none bg-white/40 sm:bg-white/95 backdrop-blur-md sm:backdrop-blur px-5 sm:px-6 py-6 shadow-card ring-1 ring-white/30 sm:ring-brand-black/10 max-w-md ml-auto"
             >
-              <div className="pb-4 border-b border-brand-gold/30 mb-4">
-                <h3 className="font-heading uppercase text-2xl text-brand-black">
+              <div className="pb-4 border-b border-white/50 sm:border-brand-gold/30 mb-4">
+                <h3 className="font-heading uppercase text-2xl text-white sm:text-brand-black">
                   Get Your Free Quote
                 </h3>
-                <p className="text-sm text-brand-black/70">
+                <p className="text-sm text-white/90 sm:text-brand-black/70">
                   Answer a few quick questions—we&apos;ll text you a price today.
                 </p>
               </div>
 
               <div className="grid grid-cols-1 gap-4">
                 <label className="block">
-                  <span className="text-sm font-medium text-brand-black">Full Name*</span>
+                  <span className="text-sm font-medium text-white sm:text-brand-black">Full Name*</span>
                   <input 
                     name="name" 
                     required 
-                    className="mt-1 w-full rounded-md border border-brand-black/20 px-3 py-2 outline-none focus:ring-2 focus:ring-brand-blue" 
+                    className="mt-1 w-full rounded-md border border-white/30 sm:border-brand-black/20 bg-white/20 sm:bg-white px-3 py-2 outline-none focus:ring-2 focus:ring-brand-blue placeholder-white/50 sm:placeholder-gray-400 text-white sm:text-brand-black" 
                   />
                 </label>
 
                 <div className="grid sm:grid-cols-2 gap-4">
                   <label className="block">
-                    <span className="text-sm font-medium text-brand-black">Phone*</span>
+                    <span className="text-sm font-medium text-white sm:text-brand-black">Phone*</span>
                     <input 
                       name="phone" 
                       required 
                       inputMode="tel" 
-                      className="mt-1 w-full rounded-md border border-brand-black/20 px-3 py-2 outline-none focus:ring-2 focus:ring-brand-blue" 
+                      className="mt-1 w-full rounded-md border border-white/30 sm:border-brand-black/20 bg-white/20 sm:bg-white px-3 py-2 outline-none focus:ring-2 focus:ring-brand-blue placeholder-white/50 sm:placeholder-gray-400 text-white sm:text-brand-black" 
                     />
                   </label>
                   <label className="block">
-                    <span className="text-sm font-medium text-brand-black">Email</span>
+                    <span className="text-sm font-medium text-white sm:text-brand-black">Email</span>
                     <input 
                       name="email" 
                       type="email" 
-                      className="mt-1 w-full rounded-md border border-brand-black/20 px-3 py-2 outline-none focus:ring-2 focus:ring-brand-blue" 
+                      className="mt-1 w-full rounded-md border border-white/30 sm:border-brand-black/20 bg-white/20 sm:bg-white px-3 py-2 outline-none focus:ring-2 focus:ring-brand-blue placeholder-white/50 sm:placeholder-gray-400 text-white sm:text-brand-black" 
                     />
                   </label>
                 </div>
 
                 <label className="block">
-                  <span className="text-sm font-medium text-brand-black">Service Needed</span>
+                  <span className="text-sm font-medium text-white sm:text-brand-black">Service Needed</span>
                   <select 
                     name="service" 
-                    className="mt-1 w-full rounded-md border border-brand-black/20 px-3 py-2 outline-none focus:ring-2 focus:ring-brand-blue"
+                    className="mt-1 w-full rounded-md border border-white/30 sm:border-brand-black/20 bg-white/20 sm:bg-white px-3 py-2 outline-none focus:ring-2 focus:ring-brand-blue text-white sm:text-brand-black"
                   >
                     <option>Emergency Repair</option>
                     <option>Leak Detection & Repair</option>
@@ -198,19 +198,19 @@ export default function Hero() {
                 </label>
 
                 <label className="block">
-                  <span className="text-sm font-medium text-brand-black">Address (City/ZIP)</span>
+                  <span className="text-sm font-medium text-white sm:text-brand-black">Address (City/ZIP)</span>
                   <input 
                     name="address" 
-                    className="mt-1 w-full rounded-md border border-brand-black/20 px-3 py-2 outline-none focus:ring-2 focus:ring-brand-blue" 
+                    className="mt-1 w-full rounded-md border border-white/30 sm:border-brand-black/20 bg-white/20 sm:bg-white px-3 py-2 outline-none focus:ring-2 focus:ring-brand-blue placeholder-white/50 sm:placeholder-gray-400 text-white sm:text-brand-black" 
                   />
                 </label>
 
                 <label className="block">
-                  <span className="text-sm font-medium text-brand-black">Notes</span>
+                  <span className="text-sm font-medium text-white sm:text-brand-black">Notes</span>
                   <textarea 
                     name="notes" 
                     rows={3} 
-                    className="mt-1 w-full rounded-md border border-brand-black/20 px-3 py-2 outline-none focus:ring-2 focus:ring-brand-blue" 
+                    className="mt-1 w-full rounded-md border border-white/30 sm:border-brand-black/20 bg-white/20 sm:bg-white px-3 py-2 outline-none focus:ring-2 focus:ring-brand-blue placeholder-white/50 sm:placeholder-gray-400 text-white sm:text-brand-black" 
                   />
                 </label>
 
@@ -231,8 +231,8 @@ export default function Hero() {
                 )}
               </div>
 
-              {/* gold accent frame */}
-              <div className="pointer-events-none absolute inset-0 rounded-none ring-1 ring-brand-gold/60"></div>
+              {/* gold accent frame - more subtle on mobile */}
+              <div className="pointer-events-none absolute inset-0 rounded-none ring-1 ring-white/40 sm:ring-brand-gold/60"></div>
             </form>
           </div>
         </div>
