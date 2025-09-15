@@ -65,7 +65,7 @@ export default function Hero() {
           playsInline
           className="absolute inset-0 h-full w-full object-cover object-center sm:hidden"
         >
-          <source src="/images/bannerphone.mp4" type="video/mp4" />
+          <source src="/images/phonebanner.mp4" type="video/mp4" />
         </video>
         {/* Overlay: left-to-right gradient + subtle noise */}
         <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/20" />
