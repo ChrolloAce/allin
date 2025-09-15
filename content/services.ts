@@ -75,8 +75,8 @@ export const services: Service[] = [
     slug: 'bathroom-plumbing',
     name: 'Bathroom Plumbing',
     icon: 'bath',
-    image: '/images/bathroom.png',
-    heroImage: '/images/bathroom.png',
+    image: '/images/bathroom-new.png',
+    heroImage: '/images/bathroom-new.png',
     summary: 'Complete bathroom plumbing services from repairs to full renovations.',
     bullets: [
       'Toilet, sink, and shower repairs',
