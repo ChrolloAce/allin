@@ -44,16 +44,28 @@ export default function Hero() {
 
   return (
     <section className="relative isolate">
-      {/* Background video */}
+      {/* Background video - responsive */}
       <div className="absolute inset-0 -z-10">
+        {/* Desktop video */}
         <video
           autoPlay
           loop
           muted
           playsInline
-          className="absolute inset-0 h-full w-full object-cover object-center"
+          className="absolute inset-0 h-full w-full object-cover object-center hidden sm:block"
         >
           <source src="/images/videoofbanner.mp4" type="video/mp4" />
+        </video>
+        
+        {/* Mobile video */}
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="absolute inset-0 h-full w-full object-cover object-center sm:hidden"
+        >
+          <source src="/images/bannerphone.mp4" type="video/mp4" />
         </video>
         {/* Overlay: left-to-right gradient + subtle noise */}
         <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/20" />
@@ -65,19 +77,19 @@ export default function Hero() {
           {/* Left: Copy / CTAs */}
           <div className="text-white">
             {/* BBB Logo */}
-            <div className="mb-6">
+            <div className="mb-4">
               <Image
                 src="/images/BBB.png"
                 alt="BBB Accredited Business"
-                width={120}
-                height={120}
+                width={80}
+                height={80}
                 className="object-contain"
               />
             </div>
             
             <h1 className="font-heading uppercase leading-[0.95] tracking-tight text-5xl sm:text-6xl">
               All In <span className="underline decoration-brand-gold decoration-4 underline-offset-4">Plumbing</span> Solutions
-              <br /> <span className="text-brand-blue">North Palm Beach&apos;s</span> Trusted Experts
+              <br /> <span className="text-brand-blue">The Palm Beaches&apos;</span> Trusted Experts
             </h1>
 
             <p className="mt-5 max-w-xl text-lg text-white/90">
