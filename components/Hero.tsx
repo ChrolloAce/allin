@@ -44,15 +44,17 @@ export default function Hero() {
 
   return (
     <section className="relative isolate">
-      {/* Background image */}
+      {/* Background video */}
       <div className="absolute inset-0 -z-10">
-        <Image
-          src="/images/hero-van.png"
-          alt="All In Plumbing Solutions service van"
-          fill
-          priority
-          className="object-cover object-center"
-        />
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="absolute inset-0 h-full w-full object-cover object-center"
+        >
+          <source src="/images/bannerimage.mp4" type="video/mp4" />
+        </video>
         {/* Overlay: left-to-right gradient + subtle noise */}
         <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/20" />
         <div className="absolute inset-0 mix-blend-overlay bg-noise opacity-[.08]" />
@@ -62,6 +64,17 @@ export default function Hero() {
         <div className="grid lg:grid-cols-2 gap-10 items-center">
           {/* Left: Copy / CTAs */}
           <div className="text-white">
+            {/* BBB Logo */}
+            <div className="mb-6">
+              <Image
+                src="/images/BBB.png"
+                alt="BBB Accredited Business"
+                width={120}
+                height={120}
+                className="object-contain"
+              />
+            </div>
+            
             <h1 className="font-heading uppercase leading-[0.95] tracking-tight text-5xl sm:text-6xl">
               All In <span className="underline decoration-brand-gold decoration-4 underline-offset-4">Plumbing</span> Solutions
               <br /> <span className="text-brand-blue">North Palm Beach&apos;s</span> Trusted Experts
