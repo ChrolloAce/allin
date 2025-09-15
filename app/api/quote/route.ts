@@ -5,11 +5,9 @@ import { Resend } from 'resend'
 const resend = new Resend(process.env.RESEND_API_KEY || 're_39Cpz1sS_NHVXe94bPyAU1AMBBJmG5Nsf')
 
 // Email recipients
-// Note: Resend is in test mode and can only send to ernesto@maktubtechnologies.com
-// To send to other emails, you need to verify your domain at resend.com/domains
 const EMAIL_RECIPIENTS = [
-  'ernesto@maktubtechnologies.com'  // Only this email works in test mode
-  // 'info@allinplumbingsolutions.com' // Add this back after domain verification
+  'info@allinplumbingsolutions.com',  // Primary email
+  'ernesto@maktubtechnologies.com'   // Backup/testing email
 ]
 
 export async function POST(request: Request) {

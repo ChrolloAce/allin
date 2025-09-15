@@ -1,6 +1,6 @@
 import { MetadataRoute } from 'next'
 import { services } from '@/content/services'
-import { locations } from '@/content/locations'
+import { LOCATIONS } from '@/content/locations'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://allinplumbingsolutions.com'
@@ -48,7 +48,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }))
 
   // Location pages
-  const locationPages = locations.map((location) => ({
+  const locationPages = LOCATIONS.map((location) => ({
     url: `${baseUrl}/locations/${location.slug}`,
     lastModified: new Date(),
     changeFrequency: 'monthly' as const,
