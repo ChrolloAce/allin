@@ -72,17 +72,17 @@ export const services: Service[] = [
     ctaLabel: 'Schedule Service'
   },
   {
-    slug: 'bathroom-plumbing',
-    name: 'Bathroom Plumbing',
+    slug: 'bathroom-renovations',
+    name: 'Bathroom Renovations',
     icon: 'bath',
     image: '/images/bathroom-new.png',
     heroImage: '/images/bathroom-new.png',
-    summary: 'Complete bathroom plumbing services from repairs to full renovations.',
+    summary: 'Complete bathroom renovation services from design to installation.',
     bullets: [
-      'Toilet, sink, and shower repairs',
+      'Full bathroom remodeling',
       'Fixture installation and upgrades',
-      'Bathroom remodeling',
-      'Clog removal and drain cleaning'
+      'Custom shower and tub installations',
+      'Vanity and sink replacements'
     ],
     ctaLabel: 'Transform Your Bathroom'
   },
