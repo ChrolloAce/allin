@@ -76,34 +76,6 @@ export default function Hero() {
         <div className="grid lg:grid-cols-2 gap-10 items-center">
           {/* Left: Copy / CTAs */}
           <div className="text-white">
-            {/* Trust Badges */}
-            <div className="mb-4 flex items-center gap-4">
-              {/* BBB Badge */}
-              <iframe 
-                style={{ border: 0, height: '108px', width: '60px' }}
-                src="https://seal-seflorida.bbb.org/frame/ruvtbum/bbb-92041461.png?chk=02137851A6"
-                title="BBB Accredited Business"
-              />
-              
-              {/* Google 5 Stars Badge 1 */}
-              <Image
-                src="/images/google-badge-1.png"
-                alt="Google 5 Stars"
-                width={100}
-                height={60}
-                className="object-contain"
-              />
-              
-              {/* Google 5 Stars Badge 2 */}
-              <Image
-                src="/images/google-badge-2.png"
-                alt="Google 5 Stars Reviews"
-                width={100}
-                height={60}
-                className="object-contain"
-              />
-            </div>
-            
             <h1 className="font-heading uppercase leading-[0.95] tracking-tight text-5xl sm:text-6xl">
               All In <span className="underline decoration-brand-gold decoration-4 underline-offset-4">Plumbing</span> Solutions
               <br /> <span className="text-brand-blue">The Palm Beaches</span> Trusted Experts
@@ -246,6 +218,36 @@ export default function Hero() {
                 {ok === false && (
                   <p className="text-sm text-red-600">Something went wrong. Please call us or try again.</p>
                 )}
+              </div>
+
+              {/* Trust Badges */}
+              <div className="mt-6 pt-4 border-t border-white/30 sm:border-brand-gold/30">
+                <div className="flex items-center justify-center gap-3">
+                  {/* Yelp Badge */}
+                  <Image
+                    src="/images/yelp-badge.png"
+                    alt="Yelp 5 Stars"
+                    width={80}
+                    height={50}
+                    className="object-contain"
+                  />
+                  
+                  {/* Google Badge */}
+                  <Image
+                    src="/images/google-badge-2.png"
+                    alt="Google 5 Stars"
+                    width={80}
+                    height={50}
+                    className="object-contain"
+                  />
+                  
+                  {/* BBB Badge */}
+                  <iframe 
+                    style={{ border: 0, height: '80px', width: '45px' }}
+                    src="https://seal-seflorida.bbb.org/frame/ruvtbum/bbb-92041461.png?chk=02137851A6"
+                    title="BBB Accredited Business"
+                  />
+                </div>
               </div>
 
               {/* gold accent frame - more subtle on mobile */}
