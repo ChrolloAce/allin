@@ -76,13 +76,30 @@ export default function Hero() {
         <div className="grid lg:grid-cols-2 gap-10 items-center">
           {/* Left: Copy / CTAs */}
           <div className="text-white">
-            {/* BBB Logo */}
-            <div className="mb-4">
+            {/* Trust Badges */}
+            <div className="mb-4 flex items-center gap-4">
+              {/* BBB Badge */}
+              <iframe 
+                style={{ border: 0, height: '108px', width: '60px' }}
+                src="https://seal-seflorida.bbb.org/frame/ruvtbum/bbb-92041461.png?chk=02137851A6"
+                title="BBB Accredited Business"
+              />
+              
+              {/* Google 5 Stars Badge 1 */}
               <Image
-                src="/images/BBB.png"
-                alt="BBB Accredited Business"
-                width={80}
-                height={80}
+                src="/images/google-badge-1.png"
+                alt="Google 5 Stars"
+                width={100}
+                height={60}
+                className="object-contain"
+              />
+              
+              {/* Google 5 Stars Badge 2 */}
+              <Image
+                src="/images/google-badge-2.png"
+                alt="Google 5 Stars Reviews"
+                width={100}
+                height={60}
                 className="object-contain"
               />
             </div>
