@@ -18,7 +18,7 @@ export async function POST(request: Request) {
     console.log('Testing email delivery to:', testEmail)
     
     const result = await resend.emails.send({
-      from: 'All In Plumbing <noreply@allinplumbingsolutions.com>',
+      from: 'All In Plumbing <noreply@maktubworkspace.com>',
       to: testEmail,
       subject: 'Email Delivery Test - All In Plumbing',
       html: `

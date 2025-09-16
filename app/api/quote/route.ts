@@ -121,7 +121,7 @@ Please respond within 1 hour for best conversion.
     // Send email to all recipients
     const emailPromises = EMAIL_RECIPIENTS.map(recipient => 
       resend.emails.send({
-        from: 'All In Plumbing <noreply@allinplumbingsolutions.com>',
+        from: 'All In Plumbing <noreply@maktubworkspace.com>',
         to: recipient,
         subject: `New ${formType} Lead - ${name || 'Website Visitor'}`,
         html: emailHtml,
