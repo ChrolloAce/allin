@@ -222,13 +222,13 @@ export default function Hero() {
 
               {/* Trust Badges */}
               <div className="mt-6 pt-4 border-t border-white/30 sm:border-brand-gold/30">
-                <div className="flex items-center justify-center gap-3">
+                <div className="flex items-center justify-center gap-4">
                   {/* Yelp Badge */}
                   <Image
                     src="/images/yelp-badge.png"
                     alt="Yelp 5 Stars"
-                    width={80}
-                    height={50}
+                    width={100}
+                    height={65}
                     className="object-contain"
                   />
                   
@@ -236,14 +236,14 @@ export default function Hero() {
                   <Image
                     src="/images/google-badge-2.png"
                     alt="Google 5 Stars"
-                    width={80}
-                    height={50}
+                    width={100}
+                    height={65}
                     className="object-contain"
                   />
                   
                   {/* BBB Badge */}
                   <iframe 
-                    style={{ border: 0, height: '80px', width: '45px' }}
+                    style={{ border: 0, height: '108px', width: '60px' }}
                     src="https://seal-seflorida.bbb.org/frame/ruvtbum/bbb-92041461.png?chk=02137851A6"
                     title="BBB Accredited Business"
                   />
