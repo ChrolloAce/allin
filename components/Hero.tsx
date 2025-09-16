@@ -242,11 +242,20 @@ export default function Hero() {
                   />
                   
                   {/* BBB Badge */}
-                  <iframe 
-                    style={{ border: 0, height: '140px', width: '80px' }}
-                    src="https://seal-seflorida.bbb.org/frame/ruvtbum/bbb-92041461.png?chk=02137851A6"
-                    title="BBB Accredited Business"
-                  />
+                  <a 
+                    href="https://www.bbb.org/us/fl/west-palm-beach/profile/plumber/all-in-plumbing-solutions-llc-0633-92041461#sealclick"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:opacity-80 transition-opacity"
+                  >
+                    <Image
+                      src="/images/bbb-accredited.png"
+                      alt="BBB Accredited Business"
+                      width={140}
+                      height={90}
+                      className="object-contain"
+                    />
+                  </a>
                 </div>
               </div>
 
