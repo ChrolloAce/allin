@@ -6,8 +6,7 @@ const resend = new Resend(process.env.RESEND_API_KEY || 're_39Cpz1sS_NHVXe94bPyA
 
 // Email recipients
 const EMAIL_RECIPIENTS = [
-  'info@allinplumbingsolutions.com',  // Primary email
-  'ernesto@maktubtechnologies.com'   // Backup/testing email
+  'info@allinplumbingsolutions.com'  // Primary business email
 ]
 
 export async function POST(request: Request) {
