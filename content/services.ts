@@ -220,6 +220,22 @@ export const services: Service[] = [
       'Long-lasting solutions'
     ],
     ctaLabel: 'Learn About Pipelining'
+  },
+  {
+    slug: 'repiping',
+    name: 'Repiping Services',
+    icon: 'pipes',
+    image: '/images/repiping.png',
+    heroImage: '/images/repiping.png',
+    summary: 'Complete home and commercial repiping services with modern materials and professional installation.',
+    bullets: [
+      'Whole house repiping',
+      'Copper and PEX installations',
+      'Water pressure restoration',
+      'Leak-free pipe systems',
+      'Increased property value'
+    ],
+    ctaLabel: 'Get Repiping Quote'
   }
 ]
 

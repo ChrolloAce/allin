@@ -57,16 +57,16 @@ export default function Hero() {
           <source src="/images/videoofbanner.mp4" type="video/mp4" />
         </video>
         
-        {/* Mobile video */}
-        <video
-          autoPlay
-          loop
-          muted
-          playsInline
-          className="absolute inset-0 h-full w-full object-cover object-center sm:hidden"
-        >
-          <source src="/images/plumbvidphone.mp4" type="video/mp4" />
-        </video>
+        {/* Mobile background image */}
+        <div className="absolute inset-0 h-full w-full sm:hidden">
+          <Image
+            src="/images/hero-mobile-bg.png"
+            alt="Professional plumbing services"
+            fill
+            className="object-cover object-center"
+            priority
+          />
+        </div>
         {/* Overlay: left-to-right gradient + subtle noise */}
         <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/20" />
         <div className="absolute inset-0 mix-blend-overlay bg-noise opacity-[.08]" />
@@ -222,13 +222,13 @@ export default function Hero() {
 
               {/* Trust Badges */}
               <div className="mt-6 pt-4 border-t border-white/30 sm:border-brand-gold/30">
-                <div className="flex items-center justify-center gap-4">
+                <div className="flex items-center justify-center gap-6">
                   {/* Yelp Badge */}
                   <Image
                     src="/images/yelp-badge.png"
                     alt="Yelp 5 Stars"
-                    width={100}
-                    height={65}
+                    width={140}
+                    height={90}
                     className="object-contain"
                   />
                   
@@ -236,14 +236,14 @@ export default function Hero() {
                   <Image
                     src="/images/google-badge-2.png"
                     alt="Google 5 Stars"
-                    width={100}
-                    height={65}
+                    width={140}
+                    height={90}
                     className="object-contain"
                   />
                   
                   {/* BBB Badge */}
                   <iframe 
-                    style={{ border: 0, height: '108px', width: '60px' }}
+                    style={{ border: 0, height: '140px', width: '80px' }}
                     src="https://seal-seflorida.bbb.org/frame/ruvtbum/bbb-92041461.png?chk=02137851A6"
                     title="BBB Accredited Business"
                   />
