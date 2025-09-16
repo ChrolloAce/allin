@@ -121,7 +121,7 @@ Please respond within 1 hour for best conversion.
     // Send email to all recipients
     const emailPromises = EMAIL_RECIPIENTS.map(recipient => 
       resend.emails.send({
-        from: 'All In Plumbing <onboarding@resend.dev>',
+        from: 'All In Plumbing <noreply@allinplumbingsolutions.com>',
         to: recipient,
         subject: `New ${formType} Lead - ${name || 'Website Visitor'}`,
         html: emailHtml,
@@ -133,11 +133,21 @@ Please respond within 1 hour for best conversion.
     // Wait for all emails to be sent
     const results = await Promise.all(emailPromises)
     
+    // Log detailed email results for debugging
+    console.log('Email Results:', results.map((result, index) => ({
+      recipient: EMAIL_RECIPIENTS[index],
+      success: !!result.data?.id,
+      id: result.data?.id,
+      error: result.error
+    })))
+    
     // Check if all emails were sent successfully
     const allSent = results.every(result => result.data?.id)
+    const failedEmails = results.filter(result => !result.data?.id)
     
     if (!allSent) {
-      throw new Error('Some emails failed to send')
+      console.error('Failed email deliveries:', failedEmails)
+      throw new Error(`${failedEmails.length} of ${EMAIL_RECIPIENTS.length} emails failed to send`)
     }
 
     return NextResponse.json({
@@ -149,11 +159,19 @@ Please respond within 1 hour for best conversion.
   } catch (error) {
     console.error('Form submission error:', error)
     
-    // Still return success to user but log the error
-    return NextResponse.json({
-      success: true,
-      message: 'Thank you for your submission! We\'ll be in touch soon.',
-      error: process.env.NODE_ENV === 'development' ? error : undefined
-    })
+    // In production, still return success to user but log the detailed error
+    if (process.env.NODE_ENV === 'production') {
+      return NextResponse.json({
+        success: true,
+        message: 'Thank you for your submission! We\'ll be in touch soon.',
+      })
+    } else {
+      // In development, show the actual error
+      return NextResponse.json({
+        success: false,
+        message: 'Email delivery failed. Please try again or call us directly.',
+        error: error
+      }, { status: 500 })
+    }
   }
 }
