@@ -7,6 +7,7 @@ import { ServiceIcon } from '@/components/ui/ServiceIcon'
 import ServiceFAQ from '@/components/sections/ServiceFAQ'
 import { getServiceFAQs } from '@/content/service-faqs'
 import Button from '@/components/ui/Button'
+import Reviews from '@/components/Reviews'
 
 interface ServicePageProps {
   params: {
@@ -259,6 +260,9 @@ export default function ServicePage({ params }: ServicePageProps) {
           </div>
         </div>
       </section>
+
+      {/* Customer Reviews */}
+      <Reviews />
 
       {/* FAQ Section */}
       <section className="py-16 md:py-24 bg-brand-off">
