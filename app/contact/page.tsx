@@ -64,7 +64,7 @@ export default function ContactPage() {
         </h1>
         
         <p className="text-xl text-center text-black/70 mb-12 max-w-3xl mx-auto">
-          Need plumbing services in Miami? Fill out the form below or give us a call for your 
+          Need plumbing services in Palm Beach County? Fill out the form below or give us a call for your 
           free estimate. We typically respond within 30 minutes during business hours!
         </p>
         
@@ -202,8 +202,8 @@ export default function ContactPage() {
                   <div>
                     <p className="font-semibold">Service Area</p>
                     <p className="text-black/70">
-                      Miami, Miami Beach, Coral Gables, Aventura, 
-                      Kendall, Homestead, and all of Miami-Dade County
+                      West Palm Beach, Boca Raton, Delray Beach, Palm Beach Gardens, 
+                      Jupiter, Boynton Beach, and all of Palm Beach County
                     </p>
                   </div>
                 </div>

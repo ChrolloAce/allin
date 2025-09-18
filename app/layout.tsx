@@ -67,13 +67,13 @@ export default function RootLayout({
               '@context': 'https://schema.org',
               '@type': 'Plumber',
               name: 'All In Plumbing Solutions',
-              description: '24/7 emergency plumbing services in Miami and surrounding areas',
+              description: '24/7 emergency plumbing services in Palm Beach County and surrounding areas',
               telephone: '561-571-2995',
               alternateTelephone: '954-657-3429',
               email: 'info@allinplumbingsolutions.com',
               address: {
                 '@type': 'PostalAddress',
-                addressLocality: 'Miami',
+                addressLocality: 'West Palm Beach',
                 addressRegion: 'FL',
                 addressCountry: 'US'
               },

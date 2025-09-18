@@ -50,7 +50,7 @@ export const services: Service[] = [
     summary: 'Round-the-clock emergency plumbing services when you need us most. Our expert team is always ready to respond.',
     bullets: [
       'Available 24 hours a day, 7 days a week',
-      'Rapid response times in Miami area',
+      'Rapid response times in Palm Beach County area',
       'Expert diagnosis and immediate repairs',
       'Fully equipped service vehicles'
     ],

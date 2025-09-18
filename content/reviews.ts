@@ -25,7 +25,7 @@ export const reviews: Review[] = [
     name: 'James Chen',
     avatar: '/images/avatar-2.jpg',
     rating: 5,
-    text: 'Best plumbing service in Miami! They fixed our bathroom leak that three other plumbers couldn\'t figure out. Fair pricing, excellent work, and they cleaned up everything before leaving.',
+    text: 'Best plumbing service in Palm Beach County! They fixed our bathroom leak that three other plumbers couldn\'t figure out. Fair pricing, excellent work, and they cleaned up everything before leaving.',
     service: 'Bathroom',
     date: '2024-01-20',
     source: 'Yelp'
@@ -75,7 +75,7 @@ export const reviews: Review[] = [
     name: 'Ana Gomez',
     avatar: '/images/avatar-7.jpg',
     rating: 5,
-    text: 'Remodeled two bathrooms with All In Plumbing. They were on time, on budget, and the quality is outstanding. Their attention to detail and craftsmanship is unmatched in Miami.',
+    text: 'Remodeled two bathrooms with All In Plumbing. They were on time, on budget, and the quality is outstanding. Their attention to detail and craftsmanship is unmatched in Palm Beach County.',
     service: 'Bathroom',
     date: '2024-02-15',
     source: 'Google'
@@ -88,6 +88,46 @@ export const reviews: Review[] = [
     text: 'As a property manager, I rely on All In Plumbing for all our buildings. They\'re responsive, reliable, and their 24/7 service has saved us countless times. Highly recommended!',
     service: 'Commercial',
     date: '2024-02-20',
+    source: 'Facebook'
+  },
+  {
+    id: '9',
+    name: 'Jennifer K.',
+    avatar: '/images/avatar-9.jpg',
+    rating: 5,
+    text: 'Emergency water heater replacement in Boca Raton. They arrived quickly, explained all options, and installed our new tankless unit perfectly. Great service!',
+    service: 'Water Heater',
+    date: '2024-02-25',
+    source: 'Google'
+  },
+  {
+    id: '10',
+    name: 'Robert T.',
+    avatar: '/images/avatar-10.jpg',
+    rating: 5,
+    text: 'Drain cleaning service in Delray Beach was exceptional. Used camera inspection to find the root cause and fixed it permanently. Highly recommend!',
+    service: 'Drain Cleaning',
+    date: '2024-03-01',
+    source: 'Yelp'
+  },
+  {
+    id: '11',
+    name: 'Lisa M.',
+    avatar: '/images/avatar-11.jpg',
+    rating: 5,
+    text: 'Leak detection service in Jupiter was amazing. Found a hidden slab leak without damaging our floors. Professional team and fair pricing.',
+    service: 'Leak Detection',
+    date: '2024-03-05',
+    source: 'Google'
+  },
+  {
+    id: '12',
+    name: 'Carlos R.',
+    avatar: '/images/avatar-12.jpg',
+    rating: 5,
+    text: 'Bathroom renovation in West Palm Beach exceeded expectations. Quality workmanship and they completed everything on schedule.',
+    service: 'Bathroom',
+    date: '2024-03-10',
     source: 'Facebook'
   }
 ]

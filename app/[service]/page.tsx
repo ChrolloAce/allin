@@ -85,7 +85,7 @@ export default function ServicePage({ params }: ServicePageProps) {
   ]
 
   const serviceAreas = [
-    'Miami', 'Miami Beach', 'Coral Gables', 'Aventura', 'Kendall',
+    'West Palm Beach', 'Boca Raton', 'Delray Beach', 'Palm Beach Gardens', 'Jupiter',
     'Homestead', 'Palmetto Bay', 'Cutler Bay', 'Doral', 'Hialeah'
   ]
 
@@ -103,7 +103,7 @@ export default function ServicePage({ params }: ServicePageProps) {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center text-white">
             <h1 className="heading-xl uppercase mb-6">
-              Professional {service.name} in Miami
+              Professional {service.name} in Palm Beach County
             </h1>
             <p className="text-xl mb-8 text-white/90">
               {service.summary}
@@ -152,7 +152,7 @@ export default function ServicePage({ params }: ServicePageProps) {
             <div className="relative">
               <img 
                 src={service.heroImage} 
-                alt={`Professional ${service.name} service in Miami`}
+                alt={`Professional ${service.name} service in Palm Beach County`}
                 className="rounded-none shadow-xl border-4 border-brand-black"
               />
               <div className="absolute -bottom-4 -right-4 bg-brand-gold p-4 border-2 border-brand-black">
@@ -224,7 +224,7 @@ export default function ServicePage({ params }: ServicePageProps) {
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
             <h2 className="heading-lg uppercase text-center mb-12 text-brand-black">
-              Trusted by Miami Homeowners
+              Trusted by Palm Beach Homeowners
             </h2>
             
             <div className="grid md:grid-cols-3 gap-8 mb-12">
@@ -252,9 +252,9 @@ export default function ServicePage({ params }: ServicePageProps) {
               <p className="text-lg italic mb-4">
                 "All In Plumbing provided excellent {service.name.toLowerCase()} service. 
                 Professional, on-time, and the results exceeded our expectations. 
-                Highly recommend for anyone in Miami!"
+                Highly recommend for anyone in Palm Beach County!"
               </p>
-              <p className="font-bold">- Maria G., Coral Gables</p>
+              <p className="font-bold">- Jennifer K., Boca Raton</p>
             </div>
           </div>
         </div>
@@ -276,10 +276,10 @@ export default function ServicePage({ params }: ServicePageProps) {
           <div className="max-w-4xl mx-auto text-center">
             <MapPin className="mx-auto mb-4 text-brand-blue" size={48} />
             <h2 className="heading-lg uppercase mb-6 text-brand-black">
-              Serving All of Miami-Dade County
+              Serving All of Palm Beach County
             </h2>
             <p className="text-lg mb-8 text-brand-black/80">
-              We provide professional {service.name.toLowerCase()} services throughout the Miami metropolitan area.
+              We provide professional {service.name.toLowerCase()} services throughout Palm Beach County.
             </p>
             <div className="flex flex-wrap justify-center gap-3">
               {serviceAreas.map((area) => (
@@ -328,13 +328,13 @@ export default function ServicePage({ params }: ServicePageProps) {
               telephone: '561-571-2995',
               address: {
                 '@type': 'PostalAddress',
-                addressLocality: 'Miami',
+                addressLocality: 'West Palm Beach',
                 addressRegion: 'FL',
               }
             },
             areaServed: {
               '@type': 'City',
-              name: 'Miami',
+              name: 'Palm Beach County',
             },
             hasOfferCatalog: {
               '@type': 'OfferCatalog',

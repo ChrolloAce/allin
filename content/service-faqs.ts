@@ -10,8 +10,8 @@ const serviceFAQs: Record<string, ServiceFAQ[]> = {
       answer: 'Plumbing emergencies include burst pipes, severe leaks, complete drain blockages, sewage backups, no water supply, and gas leaks. If the issue poses immediate risk to your property or health, it\'s an emergency.'
     },
     {
-      question: 'How quickly can you respond to emergency calls in Miami?',
-      answer: 'We guarantee response within 60 minutes for emergency calls in Miami and surrounding areas. Our emergency plumbers are stationed throughout Miami-Dade County for rapid response 24/7.'
+      question: 'How quickly can you respond to emergency calls in Palm Beach County?',
+      answer: 'We guarantee response within 60 minutes for emergency calls in Palm Beach County and surrounding areas. Our emergency plumbers are stationed throughout Palm Beach County for rapid response 24/7.'
     },
     {
       question: 'Do emergency services cost more?',
@@ -29,7 +29,7 @@ const serviceFAQs: Record<string, ServiceFAQ[]> = {
   'iron-removal': [
     {
       question: 'How do I know if I have iron in my water?',
-      answer: 'Common signs include orange/brown staining on fixtures, metallic taste, discolored laundry, and reddish-brown particles in water. We offer free water testing to determine exact iron levels in your Miami home.'
+      answer: 'Common signs include orange/brown staining on fixtures, metallic taste, discolored laundry, and reddish-brown particles in water. We offer free water testing to determine exact iron levels in your Palm Beach County home.'
     },
     {
       question: 'What types of iron removal systems do you install?',
@@ -50,8 +50,8 @@ const serviceFAQs: Record<string, ServiceFAQ[]> = {
   ],
   'water-heaters': [
     {
-      question: 'How long do water heaters typically last in Miami?',
-      answer: 'Tank water heaters last 8-12 years, while tankless units can last 20+ years with proper maintenance. Miami\'s hard water can reduce lifespan, making annual flushing essential.'
+      question: 'How long do water heaters typically last in Palm Beach County?',
+      answer: 'Tank water heaters last 8-12 years, while tankless units can last 20+ years with proper maintenance. South Florida\'s hard water can reduce lifespan, making annual flushing essential.'
     },
     {
       question: 'Should I choose tank or tankless water heater?',
@@ -76,7 +76,7 @@ const serviceFAQs: Record<string, ServiceFAQ[]> = {
       answer: 'Yes! We handle all plumbing aspects of bathroom renovations including fixture installation, pipe rerouting, shower/tub installation, and ensuring code compliance.'
     },
     {
-      question: 'How much does it cost to replace a toilet in Miami?',
+      question: 'How much does it cost to replace a toilet in Palm Beach County?',
       answer: 'Basic toilet replacement starts at $200-400 plus the fixture cost. Price varies based on toilet type, necessary repairs, and any modifications needed.'
     },
     {
@@ -89,7 +89,7 @@ const serviceFAQs: Record<string, ServiceFAQ[]> = {
     },
     {
       question: 'Can you convert my tub to a walk-in shower?',
-      answer: 'Yes! Tub-to-shower conversions are popular in Miami. We handle all plumbing modifications, ensuring proper drainage and waterproofing.'
+      answer: 'Yes! Tub-to-shower conversions are popular in Palm Beach County. We handle all plumbing modifications, ensuring proper drainage and waterproofing.'
     }
   ],
   'leak-detection': [
@@ -106,8 +106,8 @@ const serviceFAQs: Record<string, ServiceFAQ[]> = {
       answer: 'Our advanced equipment is 95%+ accurate in locating leaks. We can pinpoint leaks within inches, minimizing repair areas and costs.'
     },
     {
-      question: 'Do you detect slab leaks in Miami homes?',
-      answer: 'Yes! Slab leaks are common in Miami. We specialize in under-slab leak detection and offer both traditional repair and epoxy pipe lining solutions.'
+      question: 'Do you detect slab leaks in Palm Beach County homes?',
+      answer: 'Yes! Slab leaks are common in Palm Beach County. We specialize in under-slab leak detection and offer both traditional repair and epoxy pipe lining solutions.'
     },
     {
       question: 'How much water can a small leak waste?',
@@ -116,8 +116,8 @@ const serviceFAQs: Record<string, ServiceFAQ[]> = {
   ],
   'gas-lines': [
     {
-      question: 'Are you licensed for gas line work in Miami?',
-      answer: 'Yes! Our plumbers are fully licensed and certified for gas line installation, repair, and testing in Miami-Dade County. We pull all necessary permits.'
+      question: 'Are you licensed for gas line work in Palm Beach County?',
+      answer: 'Yes! Our plumbers are fully licensed and certified for gas line installation, repair, and testing in Palm Beach County. We pull all necessary permits.'
     },
     {
       question: 'What are signs of a gas leak?',
@@ -139,7 +139,7 @@ const serviceFAQs: Record<string, ServiceFAQ[]> = {
   'commercial-residential': [
     {
       question: 'What commercial properties do you service?',
-      answer: 'We service offices, retail stores, restaurants, hotels, apartments, condos, HOAs, medical facilities, and industrial properties throughout Miami-Dade County.'
+      answer: 'We service offices, retail stores, restaurants, hotels, apartments, condos, HOAs, medical facilities, and industrial properties throughout Palm Beach County.'
     },
     {
       question: 'Do you offer commercial maintenance contracts?',
@@ -155,7 +155,7 @@ const serviceFAQs: Record<string, ServiceFAQ[]> = {
     },
     {
       question: 'Do you handle HOA and condo association work?',
-      answer: 'Yes! We work with many HOAs and condo associations in Miami, handling both common area plumbing and coordination of unit repairs.'
+      answer: 'Yes! We work with many HOAs and condo associations in Palm Beach County, handling both common area plumbing and coordination of unit repairs.'
     }
   ],
   'lead-detection': [
@@ -176,8 +176,8 @@ const serviceFAQs: Record<string, ServiceFAQ[]> = {
       answer: 'Options include: complete pipe replacement, epoxy pipe lining, point-of-use filters, or whole-house filtration systems. We\'ll recommend the best solution for your situation.'
     },
     {
-      question: 'Does Miami have lead pipe issues?',
-      answer: 'While less common than northern cities, some older Miami neighborhoods have lead service lines. We help identify and replace these pipes.'
+      question: 'Does Palm Beach County have lead pipe issues?',
+      answer: 'While less common than northern cities, some older Palm Beach County neighborhoods have lead service lines. We help identify and replace these pipes.'
     }
   ],
   'backflow-prevention': [
@@ -186,8 +186,8 @@ const serviceFAQs: Record<string, ServiceFAQ[]> = {
       answer: 'Backflow occurs when contaminated water flows backward into clean water supply. This can introduce harmful chemicals, bacteria, and other contaminants into drinking water.'
     },
     {
-      question: 'Is backflow testing required in Miami?',
-      answer: 'Yes! Miami-Dade County requires annual backflow preventer testing for commercial properties and many residential systems. We\'re certified to perform required testing.'
+      question: 'Is backflow testing required in Palm Beach County?',
+      answer: 'Yes! Palm Beach County requires annual backflow preventer testing for commercial properties and many residential systems. We\'re certified to perform required testing.'
     },
     {
       question: 'What types of backflow preventers do you install?',
@@ -227,7 +227,7 @@ const serviceFAQs: Record<string, ServiceFAQ[]> = {
   'annual-flush': [
     {
       question: 'Why is annual water heater flushing important?',
-      answer: 'Flushing removes sediment buildup that reduces efficiency, causes noise, and shortens heater life. In Miami\'s hard water, annual flushing is essential.'
+      answer: 'Flushing removes sediment buildup that reduces efficiency, causes noise, and shortens heater life. In South Florida\'s hard water, annual flushing is essential.'
     },
     {
       question: 'What systems need annual flushing?',
@@ -248,8 +248,8 @@ const serviceFAQs: Record<string, ServiceFAQ[]> = {
   ],
   'water-quality': [
     {
-      question: 'What water quality issues are common in Miami?',
-      answer: 'Miami water often has high chlorine, hardness, and occasionally taste/odor issues. We test for all parameters and recommend appropriate treatment solutions.'
+      question: 'What water quality issues are common in Palm Beach County?',
+      answer: 'Palm Beach County water often has high chlorine, hardness, and occasionally taste/odor issues. We test for all parameters and recommend appropriate treatment solutions.'
     },
     {
       question: 'What types of water treatment do you offer?',
@@ -271,7 +271,7 @@ const serviceFAQs: Record<string, ServiceFAQ[]> = {
   'distributor': [
     {
       question: 'Do you supply plumbing materials to contractors?',
-      answer: 'Yes! We offer wholesale pricing on fixtures, pipes, water heaters, and supplies to licensed contractors throughout Miami-Dade County.'
+      answer: 'Yes! We offer wholesale pricing on fixtures, pipes, water heaters, and supplies to licensed contractors throughout Palm Beach County.'
     },
     {
       question: 'Can I purchase plumbing supplies directly?',
@@ -279,7 +279,7 @@ const serviceFAQs: Record<string, ServiceFAQ[]> = {
     },
     {
       question: 'Do you offer delivery services?',
-      answer: 'Yes, we provide same-day delivery for in-stock items and next-day for special orders throughout Miami-Dade County.'
+      answer: 'Yes, we provide same-day delivery for in-stock items and next-day for special orders throughout Palm Beach County.'
     },
     {
       question: 'What brands do you carry?',
@@ -318,7 +318,7 @@ export function getServiceFAQs(serviceSlug: string): ServiceFAQ[] {
   return serviceFAQs[serviceSlug] || [
     {
       question: 'How quickly can you schedule service?',
-      answer: 'We offer same-day and next-day service for most non-emergency calls in Miami. Emergency services are available 24/7 with response times under 60 minutes.'
+      answer: 'We offer same-day and next-day service for most non-emergency calls in Palm Beach County. Emergency services are available 24/7 with response times under 60 minutes.'
     },
     {
       question: 'Are you licensed and insured?',

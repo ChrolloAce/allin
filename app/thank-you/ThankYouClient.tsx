@@ -194,12 +194,12 @@ export default function ThankYouClient({
                     <Star key={i} className="w-5 h-5 fill-current" />
                   ))}
                 </div>
-                <span className="text-sm text-black/70">4.9/5 from 500+ Miami homeowners</span>
+                <span className="text-sm text-black/70">4.9/5 from 500+ Palm Beach homeowners</span>
               </div>
               
               <div className="grid md:grid-cols-2 gap-4">
                 <ReviewCard
-                  name="Maria G. • Coral Gables"
+                  name="Sarah M. • West Palm Beach"
                   text="Emergency service at 2 AM for a burst pipe. They arrived in 45 minutes and saved our home from flooding. True professionals!"
                 />
                 <ReviewCard
@@ -213,10 +213,10 @@ export default function ThankYouClient({
             <div className="border-2 border-brand-black bg-white rounded-none shadow-card p-6">
               <div className="flex items-center gap-2 mb-3">
                 <MapPin className="text-brand-blue" size={24} />
-                <h3 className="font-heading uppercase text-2xl">Serving All of Miami-Dade</h3>
+                <h3 className="font-heading uppercase text-2xl">Serving All of Palm Beach County</h3>
               </div>
               <p className="text-black/70">
-                Miami • Miami Beach • Coral Gables • Aventura • Kendall • Homestead • 
+                West Palm Beach • Boca Raton • Delray Beach • Palm Beach Gardens • Jupiter • Boynton Beach • 
                 Palmetto Bay • Cutler Bay • Doral • Hialeah • Key Biscayne • Wynwood • 
                 Brickell • Coconut Grove • South Beach
               </p>

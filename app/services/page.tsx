@@ -13,7 +13,7 @@ export default function ServicesPage() {
           </h1>
           <p className="text-xl text-brand-black/80 max-w-3xl mx-auto mb-8">
             From emergency repairs to maintenance programs, we offer comprehensive plumbing solutions 
-            for residential and commercial properties throughout Miami.
+            for residential and commercial properties throughout Palm Beach County.
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <CTAButton href="tel:5615712995" size="lg">
