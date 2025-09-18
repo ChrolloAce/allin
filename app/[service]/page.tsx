@@ -220,47 +220,6 @@ export default function ServicePage({ params }: ServicePageProps) {
         </div>
       </section>
 
-      {/* Trust & Proof Section */}
-      <section className="py-16 md:py-24 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="max-w-6xl mx-auto">
-            <h2 className="heading-lg uppercase text-center mb-12 text-brand-black">
-              Trusted by Palm Beach Homeowners
-            </h2>
-            
-            <div className="grid md:grid-cols-3 gap-8 mb-12">
-              <div className="text-center">
-                <div className="text-4xl font-bold text-brand-gold mb-2">500+</div>
-                <p className="text-lg">{service.name} Projects Completed</p>
-              </div>
-              <div className="text-center">
-                <div className="text-4xl font-bold text-brand-gold mb-2">4.9★</div>
-                <p className="text-lg">Average Customer Rating</p>
-              </div>
-              <div className="text-center">
-                <div className="text-4xl font-bold text-brand-gold mb-2">24/7</div>
-                <p className="text-lg">Emergency Service Available</p>
-              </div>
-            </div>
-
-            {/* Sample Testimonial */}
-            <div className="bg-brand-off p-8 border-l-4 border-brand-gold">
-              <div className="flex gap-1 mb-4">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="fill-brand-gold text-brand-gold" size={20} />
-                ))}
-              </div>
-              <p className="text-lg italic mb-4">
-                "All In Plumbing provided excellent {service.name.toLowerCase()} service. 
-                Professional, on-time, and the results exceeded our expectations. 
-                Highly recommend for anyone in Palm Beach County!"
-              </p>
-              <p className="font-bold">- Jennifer K., Boca Raton</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Customer Reviews */}
       <Reviews />
 
