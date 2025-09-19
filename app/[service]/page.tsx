@@ -86,8 +86,10 @@ export default function ServicePage({ params }: ServicePageProps) {
   ]
 
   const serviceAreas = [
-    'West Palm Beach', 'Boca Raton', 'Delray Beach', 'Palm Beach Gardens', 'Jupiter',
-    'Homestead', 'Palmetto Bay', 'Cutler Bay', 'Doral', 'Hialeah'
+    'West Palm Beach', 'Palm Beach', 'Palm Beach Gardens', 'North Palm Beach', 'Riviera Beach',
+    'Boynton Beach', 'Delray Beach', 'Boca Raton', 'Lantana', 'Wellington', 
+    'Royal Palm Beach', 'Jupiter', 'Lake Worth Beach', 'Greenacres', 'Palm Springs',
+    'Pompano Beach', 'Deerfield Beach'
   ]
 
   return (

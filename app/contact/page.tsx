@@ -202,8 +202,10 @@ export default function ContactPage() {
                   <div>
                     <p className="font-semibold">Service Area</p>
                     <p className="text-black/70">
-                      West Palm Beach, Boca Raton, Delray Beach, Palm Beach Gardens, 
-                      Jupiter, Boynton Beach, and all of Palm Beach County
+                      West Palm Beach, Palm Beach, Palm Beach Gardens, North Palm Beach, 
+                      Riviera Beach, Boynton Beach, Delray Beach, Boca Raton, Lantana, 
+                      Wellington, Royal Palm Beach, Jupiter, Lake Worth Beach, Greenacres, 
+                      Palm Springs, and all of Palm Beach County
                     </p>
                   </div>
                 </div>

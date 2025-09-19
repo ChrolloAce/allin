@@ -216,9 +216,9 @@ export default function ThankYouClient({
                 <h3 className="font-heading uppercase text-2xl">Serving All of Palm Beach County</h3>
               </div>
               <p className="text-black/70">
-                West Palm Beach • Boca Raton • Delray Beach • Palm Beach Gardens • Jupiter • Boynton Beach • 
-                Palmetto Bay • Cutler Bay • Doral • Hialeah • Key Biscayne • Wynwood • 
-                Brickell • Coconut Grove • South Beach
+                West Palm Beach • Palm Beach • Palm Beach Gardens • North Palm Beach • Riviera Beach • 
+                Boynton Beach • Delray Beach • Boca Raton • Lantana • Wellington • Royal Palm Beach • 
+                Jupiter • Lake Worth Beach • Greenacres • Palm Springs • Pompano Beach • Deerfield Beach
               </p>
             </div>
 
