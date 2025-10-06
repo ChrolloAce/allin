@@ -3,7 +3,6 @@ import './globals.css'
 import { TopBar } from '@/components/layout/TopBar'
 import { Navbar } from '@/components/layout/Navbar'
 import { Footer } from '@/components/layout/Footer'
-import { ProofToasts } from '@/components/ui/ProofToasts'
 
 export const metadata: Metadata = {
   title: 'All In Plumbing Solutions | 24/7 Emergency Plumbing Services Miami',
@@ -54,7 +53,6 @@ export default function RootLayout({
           {children}
         </main>
         <Footer />
-        <ProofToasts />
         
         {/* Schema.org LocalBusiness markup */}
         <script
