@@ -24,7 +24,7 @@ export default function HomePage() {
           'Our 24/7 emergency service guarantees a rapid response, with skilled plumbers arriving within 60 minutes to handle burst pipes, major leaks, sewage backups, and more.',
           'We\'re equipped with state-of-the-art tools and parts to fix most problems on the spot, preventing further damage to your property and getting your life back to normal quickly.'
         ]}
-        images={['/images/emergency.png', '/images/hero-plumber.jpeg']}
+        images={['/images/6.png', '/images/2.png']}
         direction="right"
         ctaText="Call Emergency Hotline"
         ctaHref="tel:5615712995"
@@ -37,7 +37,7 @@ export default function HomePage() {
           'Our professional drain cleaning service uses advanced hydro-jetting technology and video inspection cameras to thoroughly clean your pipes and identify potential issues before they become emergencies.',
           'Regular drain maintenance prevents costly backups, eliminates foul odors, and ensures your plumbing system operates efficiently, saving you money and headaches in the long run.'
         ]}
-        images={['/images/drain-cleaning-new.png', '/images/leak-detection.png']}
+        images={['/images/1.png', '/images/3.png']}
         direction="left"
         ctaText="Schedule Drain Service"
         ctaHref="/drain-cleaning"
@@ -50,7 +50,7 @@ export default function HomePage() {
           'We service all makes and models, from traditional tank water heaters to modern tankless systems. Our team can help you choose the most energy-efficient option for your home and budget.',
           'With same-day installation available and comprehensive maintenance plans, we ensure you always have reliable hot water when you need it most.'
         ]}
-        images={['/images/water-heater.png', '/images/bathroom.png']}
+        images={['/images/4.png', '/images/Untitled design (11).png']}
         direction="right"
         ctaText="Get Hot Water Today"
         ctaHref="/water-heater"
