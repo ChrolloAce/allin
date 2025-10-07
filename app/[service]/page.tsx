@@ -73,7 +73,7 @@ export default function ServicePage({ params }: ServicePageProps) {
 
   const serviceAreas = [
     'West Palm Beach', 'Palm Beach Gardens', 'Jupiter', 'Boca Raton', 'Delray Beach',
-    'Homestead', 'Palmetto Bay', 'Cutler Bay', 'Doral', 'Hialeah'
+    'Wellington', 'Lake Worth', 'Boynton Beach', 'Royal Palm Beach', 'Greenacres'
   ]
 
   return (
@@ -241,7 +241,7 @@ export default function ServicePage({ params }: ServicePageProps) {
                 Professional, on-time, and the results exceeded our expectations. 
                 Highly recommend for anyone in The Palm Beaches!"
               </p>
-              <p className="font-bold">- Maria G., Coral Gables</p>
+              <p className="font-bold">- Maria G., Palm Beach Gardens</p>
             </div>
           </div>
         </div>

@@ -199,11 +199,11 @@ export default function ThankYouClient({
               
               <div className="grid md:grid-cols-2 gap-4">
                 <ReviewCard
-                  name="Maria G. • Coral Gables"
+                  name="Maria G. • Palm Beach Gardens"
                   text="Emergency service at 2 AM for a burst pipe. They arrived in 45 minutes and saved our home from flooding. True professionals!"
                 />
                 <ReviewCard
-                  name="David L. • Brickell"
+                  name="David L. • Boca Raton"
                   text="Fair pricing, excellent work on our bathroom renovation. The team was clean, courteous, and finished on schedule."
                 />
               </div>
@@ -217,8 +217,8 @@ export default function ThankYouClient({
               </div>
               <p className="text-black/70">
                 West Palm Beach • Palm Beach Gardens • Jupiter • Boca Raton • Delray Beach • 
-                Palmetto Bay • Cutler Bay • Doral • Hialeah • Key Biscayne • Wynwood • 
-                Brickell • Coconut Grove • South Beach
+                Wellington • Lake Worth • Boynton Beach • Royal Palm Beach • Greenacres • 
+                Palm Beach • Riviera Beach • North Palm Beach • Lantana
               </p>
             </div>
 
