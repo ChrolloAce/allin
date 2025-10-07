@@ -5,17 +5,17 @@ import { Navbar } from '@/components/layout/Navbar'
 import { Footer } from '@/components/layout/Footer'
 
 export const metadata: Metadata = {
-  title: 'All In Plumbing Solutions | 24/7 Emergency Plumbing Services Miami',
-  description: '24/7 emergency plumbing services in Miami. Licensed master plumbers for drain cleaning, water heater repair, leak detection, and more. Call (561) 571-2995',
-  keywords: 'plumber, Miami, emergency plumbing, drain cleaning, water heater, leak detection, 24/7 plumbing, Florida',
+  title: 'All In Plumbing Solutions | 24/7 Emergency Plumbing Services The Palm Beaches',
+  description: '24/7 emergency plumbing services in The Palm Beaches. Licensed master plumbers for drain cleaning, water heater repair, leak detection, and more. Call (561) 571-2995',
+  keywords: 'plumber, The Palm Beaches, emergency plumbing, drain cleaning, water heater, leak detection, 24/7 plumbing, Florida',
   icons: {
     icon: '/favicon.png',
     shortcut: '/favicon.png',
     apple: '/favicon.png',
   },
   openGraph: {
-    title: 'All In Plumbing Solutions | Miami',
-    description: '24/7 emergency plumbing services in Miami. Licensed master plumbers ready to help!',
+    title: 'All In Plumbing Solutions | The Palm Beaches',
+    description: '24/7 emergency plumbing services in The Palm Beaches. Licensed master plumbers ready to help!',
     type: 'website',
     locale: 'en_US',
     url: 'https://allinplumbingsolutions.com',
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'All In Plumbing Solutions | Miami',
-    description: '24/7 emergency plumbing services in Miami. Licensed master plumbers ready to help!',
+    title: 'All In Plumbing Solutions | The Palm Beaches',
+    description: '24/7 emergency plumbing services in The Palm Beaches. Licensed master plumbers ready to help!',
   },
   robots: {
     index: true,
@@ -62,13 +62,13 @@ export default function RootLayout({
               '@context': 'https://schema.org',
               '@type': 'Plumber',
               name: 'All In Plumbing Solutions',
-              description: '24/7 emergency plumbing services in Miami and surrounding areas',
+              description: '24/7 emergency plumbing services in The Palm Beaches and surrounding areas',
               telephone: '561-571-2995',
               alternateTelephone: '954-657-3429',
               email: 'info@allinplumbingsolutions.com',
               address: {
                 '@type': 'PostalAddress',
-                addressLocality: 'Miami',
+                addressLocality: 'The Palm Beaches',
                 addressRegion: 'FL',
                 addressCountry: 'US'
               },

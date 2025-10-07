@@ -25,7 +25,7 @@ export const reviews: Review[] = [
     name: 'James Chen',
     avatar: '/images/avatar-2.jpg',
     rating: 5,
-    text: 'Best plumbing service in Miami! They fixed our bathroom leak that three other plumbers couldn\'t figure out. Fair pricing, excellent work, and they cleaned up everything before leaving.',
+    text: 'Best plumbing service in The Palm Beaches! They fixed our bathroom leak that three other plumbers couldn\'t figure out. Fair pricing, excellent work, and they cleaned up everything before leaving.',
     service: 'Bathroom',
     date: '2024-01-20',
     source: 'Yelp'
@@ -75,7 +75,7 @@ export const reviews: Review[] = [
     name: 'Ana Gomez',
     avatar: '/images/avatar-7.jpg',
     rating: 5,
-    text: 'Remodeled two bathrooms with All In Plumbing. They were on time, on budget, and the quality is outstanding. Their attention to detail and craftsmanship is unmatched in Miami.',
+    text: 'Remodeled two bathrooms with All In Plumbing. They were on time, on budget, and the quality is outstanding. Their attention to detail and craftsmanship is unmatched in The Palm Beaches.',
     service: 'Bathroom',
     date: '2024-02-15',
     source: 'Google'
