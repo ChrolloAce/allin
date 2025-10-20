@@ -1,13 +1,19 @@
 import { NextResponse } from 'next/server'
 import { Resend } from 'resend'
 
-// Initialize Resend with your API key
+// Initialize Resend with your API key from environment variables
+if (!process.env.RESEND_API_KEY) {
+  console.warn('⚠️  RESEND_API_KEY is not set. Email functionality will not work.')
+}
+
 const resend = new Resend(process.env.RESEND_API_KEY || 're_39Cpz1sS_NHVXe94bPyAU1AMBBJmG5Nsf')
 
-// Email recipients
-const EMAIL_RECIPIENTS = [
-  'allinplumbingsolutions@gmail.com'  // All form submissions will be sent to Mike's email
-]
+// Email configuration from environment variables
+const EMAIL_FROM = `${process.env.EMAIL_FROM_NAME || 'All In Plumbing Solutions'} <${process.env.EMAIL_FROM_ADDRESS || 'onboarding@resend.dev'}>`
+const EMAIL_TO = process.env.EMAIL_TO || 'allinplumbingsolutions@gmail.com'
+
+// Parse email recipients (supports comma-separated list)
+const EMAIL_RECIPIENTS = EMAIL_TO.split(',').map(email => email.trim())
 
 export async function POST(request: Request) {
   try {
@@ -119,9 +125,11 @@ Please respond within 1 hour for best conversion.
     `.trim()
 
     // Send email to all recipients
+    console.log('📧 Sending emails to:', EMAIL_RECIPIENTS)
+    
     const emailPromises = EMAIL_RECIPIENTS.map(recipient => 
       resend.emails.send({
-        from: 'All In Plumbing <onboarding@resend.dev>',
+        from: EMAIL_FROM,
         to: recipient,
         subject: `New ${formType} Lead - ${name || 'Website Visitor'}`,
         html: emailHtml,
@@ -133,13 +141,25 @@ Please respond within 1 hour for best conversion.
     // Wait for all emails to be sent
     const results = await Promise.all(emailPromises)
     
+    // Log results for debugging
+    console.log('📬 Email send results:', results.map((r, i) => ({
+      recipient: EMAIL_RECIPIENTS[i],
+      success: !!r.data?.id,
+      id: r.data?.id,
+      error: r.error
+    })))
+    
     // Check if all emails were sent successfully
     const allSent = results.every(result => result.data?.id)
     
     if (!allSent) {
+      const errors = results.filter(r => r.error).map(r => r.error)
+      console.error('❌ Some emails failed to send:', errors)
       throw new Error('Some emails failed to send')
     }
 
+    console.log('✅ All emails sent successfully')
+    
     return NextResponse.json({
       success: true,
       message: 'Your request has been submitted successfully! We\'ll contact you within 1 hour.',
@@ -147,7 +167,7 @@ Please respond within 1 hour for best conversion.
     })
 
   } catch (error) {
-    console.error('Form submission error:', error)
+    console.error('❌ Form submission error:', error)
     
     // Still return success to user but log the error
     return NextResponse.json({
